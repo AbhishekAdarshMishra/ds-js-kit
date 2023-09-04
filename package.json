@@ -1,5 +1,5 @@
 {
-  "name": "ds-kit",
+  "name": "ds-js-kit",
   "version": "1.0.0",
   "description": "ds-kit is an NPM package provide ready to use famous data structures to JavaScript. It draws inspiration from the structured beauty of C++ STL.",
   "main": "index.js",
