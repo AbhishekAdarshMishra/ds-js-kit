@@ -16,7 +16,7 @@ class Node {
 /**
  * Represents a doubly linked list data structure.
  */
-class LinkedList {
+export class DoubleLinkedList {
     /**
      * Creates a new empty LinkedList.
      * @constructor
@@ -69,5 +69,21 @@ class LinkedList {
      */
     isEmpty() {
         return this.head.length === 0; // Check if the size is 0 to determine if the list is empty.
+    }
+
+    /**
+     * Returns head linked list.
+     * @returns {*} - The head nodes in the list.
+     */
+    head() {
+        return this.head;
+    }
+
+    /**
+     * Returns tail linked list.
+     * @returns {*} - The tail nodes in the list.
+     */
+    tail() {
+        return this.tail;
     }
 }

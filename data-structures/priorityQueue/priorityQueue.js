@@ -1,7 +1,7 @@
 /**
  * A PriorityQueue class that can be used to implement both Max Heap and Min Heap.
  */
-class PriorityQueue {
+export class PriorityQueue {
     /**
      * Initializes a new PriorityQueue.
      * @param {string} type - The type of heap, either "maxHeap" or "minHeap" (default is "maxHeap").

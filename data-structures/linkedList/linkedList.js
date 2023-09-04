@@ -11,7 +11,7 @@ class Node {
 /**
  * Represents a singly linked list data structure.
  */
-class LinkedList {
+export class LinkedList {
     
     constructor(){
         this.head = null; // The first node in the list.
@@ -61,5 +61,13 @@ class LinkedList {
      */
     isEmpty() {
         return this.head.length === 0; // Check if the size is 0 to determine if the list is empty.
+    }
+
+    /**
+     * Returns head linked list.
+     * @returns {*} - The head nodes in the list.
+     */
+    head() {
+        return this.head;
     }
 }

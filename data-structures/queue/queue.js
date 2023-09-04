@@ -75,4 +75,26 @@ export class Queue {
     isEmpty() {
         return this.head.length === 0;
     }
+
+    /**
+     * Return front value of the queue.
+     * @returns {*} - The item at the front of the queue, or null if the queue is empty.
+     */
+    front() {
+        if(this.head === null) {
+            return null;
+        }
+        return this.head.value;
+    }
+
+    /**
+     * Return back value of the queue.
+     * @returns {*} - The item at the last of the queue, or null if the queue is empty.
+     */
+    back() {
+        if(this.tail === null) {
+            return null;
+        }
+        return this.tail.value;
+    }
 }

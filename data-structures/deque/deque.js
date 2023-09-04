@@ -16,7 +16,7 @@ class Node {
 /**
  * Represents a Double-Ended Queue (Deque) data structure.
  */
-class Deque {
+export class Deque {
     /**
      * Creates a new Deque.
      */
@@ -106,7 +106,7 @@ class Deque {
      * Returns the number of elements in the Deque.
      * @returns {number} The number of elements.
      */
-    getSize() {
+    size() {
         return this.size;
     }
 
@@ -116,5 +116,27 @@ class Deque {
      */
     isEmpty() {
         return this.size === 0;
+    }
+
+    /**
+     * Return front value of the queue.
+     * @returns {*} - The item at the front of the queue, or null if the queue is empty.
+     */
+    front() {
+        if(this.front === null) {
+            return null;
+        }
+        return this.front.value;
+    }
+
+    /**
+     * Return back value of the queue.
+     * @returns {*} - The item at the last of the queue, or null if the queue is empty.
+     */
+    back() {
+        if(this.back === null) {
+            return null;
+        }
+        return this.back.value;
     }
 }
