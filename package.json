@@ -1,6 +1,6 @@
 {
   "name": "ds-js-stl",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "ds-kit is an NPM package provide ready to use famous data structures to JavaScript. It draws inspiration from the structured beauty of C++ STL.",
   "main": "index.js",
   "type": "module",
@@ -9,9 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AbhishekAdarshMishra/ds-kit.git"
+    "url": "git+https://github.com/AbhishekAdarshMishra/ds-js-stl.git"
   },
   "keywords": [
+      "ds",
+      " data structure javascript",
       "data-structures",
       "algorithms",
       "stl",
@@ -29,11 +31,6 @@
       "binary-tree",
       "hash-table",
       "heap",
-      "sorting-algorithms",
-      "searching-algorithms",
-      "graph-algorithms",
-      "dynamic-programming",
-      "trie",
       "priority-queue",
       "JavaScript",
       "ES6",
@@ -59,7 +56,7 @@
   "author": "Abhishek Adarsh Mishra",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AbhishekAdarshMishra/ds-kit/issues"
+    "url": "https://github.com/AbhishekAdarshMishra/ds-js-stl/issues"
   },
-  "homepage": "https://github.com/AbhishekAdarshMishra/ds-kit#readme"
+  "homepage": "https://github.com/AbhishekAdarshMishra/ds-js-stl#readme"
 }

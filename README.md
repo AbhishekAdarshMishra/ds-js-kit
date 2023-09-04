@@ -18,7 +18,7 @@ The Library provides ready to use famous data structures to JavaScript. It draws
 
 ```javascript
 
-import { Stack, Queue, PriorityQueue, DoubleLinkedList, LinkedList, Deque } from 'ds-kit';
+import { Stack, Queue, PriorityQueue, DoubleLinkedList, LinkedList, Deque } from 'ds-js-stl/index.js';
 
 const stack = new Stack();
 stack.push(32);
