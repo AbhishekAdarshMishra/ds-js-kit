@@ -1,0 +1,20 @@
+{
+  "name": "ds-kit",
+  "version": "1.0.0",
+  "description": "ds-kit is an NPM package provide ready to use famous data structures to JavaScript. It draws inspiration from the structured beauty of C++ STL.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbhishekAdarshMishra/ds-kit.git"
+  },
+  "author": "Abhishek Adarsh Mishra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbhishekAdarshMishra/ds-kit/issues"
+  },
+  "homepage": "https://github.com/AbhishekAdarshMishra/ds-kit#readme"
+}
