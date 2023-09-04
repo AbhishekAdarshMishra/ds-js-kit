@@ -1,7 +1,7 @@
 ## Install
 
 ```
-npm install ds-js-kit
+npm install ds-js-stl
 ```
 
 ### Description
